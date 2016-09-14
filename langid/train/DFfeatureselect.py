@@ -47,7 +47,7 @@ import shutil
 import tempfile
 import marshal
 import random
-import numpy
+import tinynumpy as numpy
 import cPickle
 import multiprocessing as mp
 import atexit

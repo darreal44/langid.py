@@ -54,7 +54,7 @@ import json
 import optparse
 import sys
 import logging
-import numpy as np
+import tinynumpy as np
 from wsgiref.simple_server import make_server
 from wsgiref.util import shift_path_info
 from collections import defaultdict

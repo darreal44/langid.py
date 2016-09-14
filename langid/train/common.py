@@ -76,7 +76,7 @@ def write_weights(weights, path, sort_by_weight=False):
         row.append(w[k])
       writer.writerow(row)
 
-import numpy
+import tinynumpy as numpy
 def read_weights(path):
   with open(path) as f:
     reader = csv.reader(f)

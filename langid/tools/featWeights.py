@@ -8,7 +8,7 @@ Marco Lui, February 2013
 """
 
 import argparse, os, csv, sys
-import numpy as np
+import tinynumpy as np
 import bz2, base64
 from cPickle import loads
 

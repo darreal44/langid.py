@@ -39,7 +39,7 @@ NUM_BUCKETS = 64 # number of buckets to use in k-v pair generation
 import base64, bz2, cPickle
 import os, sys, argparse, csv
 import array
-import numpy as np
+import tinynumpy as np
 import tempfile
 import marshal
 import atexit, shutil

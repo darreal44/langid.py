@@ -43,7 +43,7 @@ FEATURES_PER_LANG = 300 # number of features to select for each language
 
 import argparse
 import os, csv
-import numpy
+import tinynumpy as numpy
 import base64, bz2, cPickle
 import shutil
 

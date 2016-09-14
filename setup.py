@@ -29,7 +29,7 @@ setup(name='langid',
       zip_safe=False,
       install_requires=[
           # -*- Extra requirements: -*-
-          'numpy',
+          'tinynumpy',
       ],
       entry_points= {
         'console_scripts': [

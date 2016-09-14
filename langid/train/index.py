@@ -64,7 +64,7 @@ MIN_DOMAIN = 1 # minimum number of domains a language must be present in to be i
 import os, sys, argparse
 import csv
 import random
-import numpy
+import tinynump as numpy
 from itertools import tee, imap, islice
 from collections import defaultdict
 

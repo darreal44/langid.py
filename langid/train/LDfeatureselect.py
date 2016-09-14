@@ -42,7 +42,7 @@ FEATURES_PER_LANG = 300 # number of features to select for each language
 import os, sys, argparse
 import csv
 import marshal
-import numpy
+import tinynumpy as numpy
 import multiprocessing as mp
 from collections import defaultdict
 

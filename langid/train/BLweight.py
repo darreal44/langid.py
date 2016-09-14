@@ -10,7 +10,7 @@ CHUNKSIZE = 50 # maximum size of chunk (number of files tokenized - less = less 
 
 import os
 import argparse
-import numpy as np
+import tinynumpy as np
 
 from common import read_features, makedir, write_weights
 from scanner import build_scanner
